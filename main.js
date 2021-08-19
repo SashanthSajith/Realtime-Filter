@@ -32,6 +32,10 @@ function gotPoses(results)
 
 function draw() {
   image(video, 0, 0, 300, 300);
+  //code for red nose
+  //fill(255,0,0);
+  //stroke(255,0,0);
+  //circle(noseX,noseY,20);
   image(clown_nose, noseX, noseY, 30, 30);
 }
 
